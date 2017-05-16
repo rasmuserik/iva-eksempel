@@ -1,5 +1,6 @@
 for filnavn in stat/*.data
 do  
+  echo $filnavn
   cat $filnavn | 
     sort | 
     uniq -c | 
